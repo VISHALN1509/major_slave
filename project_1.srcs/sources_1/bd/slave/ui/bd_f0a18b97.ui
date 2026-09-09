@@ -1,0 +1,316 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/axi_quad_spi_2_ip2intc_irpt:false|/axi_quad_spi_3_ip2intc_irpt:false|/axi_uartlite_2_interrupt:false|/rst_clk_wiz_1_100M_mb_reset:false|/axi_timer_0_interrupt:false|/Net:false|/mdm_1_debug_sys_rst:false|/axi_uartlite_1_interrupt:false|/axi_uartlite_0_interrupt:false|/axi_gpio_0_ip2intc_irpt:false|/reset_1:false|/axi_uartlite_3_interrupt:false|/axi_quad_spi_0_ip2intc_irpt:false|/Net1:false|/axi_quad_spi_1_ip2intc_irpt:false|/microblaze_0_Clk:false|/clk_in1_0_1:false|/rst_clk_wiz_1_100M_bus_struct_reset:false|",
+   "Addressing View_ScaleFactor":"1.09105",
+   "Addressing View_TopLeft":"-247,3",
+   "Default View_Layers":"/axi_quad_spi_2_ip2intc_irpt:true|/axi_quad_spi_3_ip2intc_irpt:true|/axi_uartlite_2_interrupt:true|/rst_clk_wiz_1_100M_mb_reset:true|/axi_timer_0_interrupt:true|/Net:true|/mdm_1_debug_sys_rst:true|/axi_uartlite_1_interrupt:true|/axi_uartlite_0_interrupt:true|/axi_gpio_0_ip2intc_irpt:true|/reset_1:true|/axi_uartlite_3_interrupt:true|/axi_quad_spi_0_ip2intc_irpt:true|/Net1:true|/axi_quad_spi_1_ip2intc_irpt:true|/microblaze_0_Clk:true|/clk_in1_0_1:true|/rst_clk_wiz_1_100M_bus_struct_reset:true|",
+   "Default View_ScaleFactor":"0.441941",
+   "Default View_TopLeft":"-851,-1066",
+   "Display-IntfAXI4Lite":"true",
+   "Display-IntfOthers":"true",
+   "Display-IntfTypeAXIMM":"true",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeInterrupt":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Interfaces View_ExpandedHierarchyInLayout":"/axi_interconnect_0|/microblaze_0_local_memory|/axi_interconnect_0/s00_couplers|/axi_interconnect_0/m00_couplers|/axi_interconnect_0/m01_couplers|/axi_interconnect_0/m02_couplers|/axi_interconnect_0/m03_couplers|/axi_interconnect_0/m04_couplers|/axi_interconnect_0/m05_couplers|/axi_interconnect_0/m06_couplers|/axi_interconnect_0/m07_couplers|/axi_interconnect_0/m08_couplers|/axi_interconnect_0/m09_couplers|/axi_interconnect_0/m10_couplers|/axi_interconnect_0/m11_couplers|/axi_interconnect_0/m12_couplers",
+   "Interfaces View_Layers":"/axi_quad_spi_2_ip2intc_irpt:false|/axi_quad_spi_3_ip2intc_irpt:false|/axi_uartlite_2_interrupt:false|/rst_clk_wiz_1_100M_mb_reset:false|/axi_timer_0_interrupt:false|/Net:false|/mdm_1_debug_sys_rst:false|/axi_uartlite_1_interrupt:false|/axi_uartlite_0_interrupt:false|/axi_gpio_0_ip2intc_irpt:false|/reset_1:false|/axi_uartlite_3_interrupt:false|/axi_quad_spi_0_ip2intc_irpt:false|/Net1:false|/axi_quad_spi_1_ip2intc_irpt:false|/microblaze_0_Clk:false|/clk_in1_0_1:false|/rst_clk_wiz_1_100M_bus_struct_reset:false|",
+   "Interfaces View_Layout":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port UART_0 -pg 1 -lvl 6 -x 3370 -y 140 -defaultsOSRD
+preplace port UART_1 -pg 1 -lvl 6 -x 3370 -y 200 -defaultsOSRD
+preplace port UART_2 -pg 1 -lvl 6 -x 3370 -y 440 -defaultsOSRD
+preplace port UART_3 -pg 1 -lvl 6 -x 3370 -y 610 -defaultsOSRD
+preplace port dip_switches_4bits -pg 1 -lvl 6 -x 3370 -y 910 -defaultsOSRD
+preplace port SPI_0_0 -pg 1 -lvl 6 -x 3370 -y 640 -defaultsOSRD
+preplace port SPI_0_1 -pg 1 -lvl 6 -x 3370 -y 470 -defaultsOSRD
+preplace port SPI_0_2 -pg 1 -lvl 6 -x 3370 -y 230 -defaultsOSRD
+preplace port SPI_0_3 -pg 1 -lvl 6 -x 3370 -y 170 -defaultsOSRD
+preplace port SPI_0_4 -pg 1 -lvl 6 -x 3370 -y 820 -defaultsOSRD
+preplace port GPIO2_0 -pg 1 -lvl 6 -x 3370 -y 940 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 1250 -y 622 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 3000 -y 240 -defaultsOSRD
+preplace inst axi_uartlite_1 -pg 1 -lvl 4 -x 3000 -y 550 -defaultsOSRD -resize 180 116
+preplace inst axi_uartlite_2 -pg 1 -lvl 4 -x 3000 -y 390 -defaultsOSRD -resize 180 116
+preplace inst axi_uartlite_3 -pg 1 -lvl 4 -x 3000 -y 720 -defaultsOSRD -resize 180 116
+preplace inst axi_quad_spi_0 -pg 1 -lvl 3 -x 2720 -y 60 -defaultsOSRD
+preplace inst axi_quad_spi_1 -pg 1 -lvl 3 -x 2720 -y 210 -defaultsOSRD -resize 220 136
+preplace inst axi_quad_spi_2 -pg 1 -lvl 3 -x 2720 -y 431 -defaultsOSRD -resize 220 183
+preplace inst axi_quad_spi_3 -pg 1 -lvl 3 -x 2720 -y 640 -defaultsOSRD -resize 220 183
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 2720 -y 940 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 3 -x 2720 -y 1060 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 5 -x 3240 -y 330 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -x 400 -y 250 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 1 -x 400 -y 522 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 400 -y 380 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 2 -x 1250 -y 2904 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 1250 -y 3024 -defaultsOSRD
+preplace inst axi_quad_spi_4 -pg 1 -lvl 3 -x 2720 -y 820 -defaultsOSRD
+preplace inst axi_interconnect_0|xbar -pg 1 -lvl 2 -x 1640 -y 1562 -defaultsOSRD
+preplace inst axi_interconnect_0|s00_couplers -pg 1 -lvl 1 -x 1360 -y 1582 -defaultsOSRD
+preplace inst axi_interconnect_0|m00_couplers -pg 1 -lvl 3 -x 2010 -y 572 -defaultsOSRD
+preplace inst axi_interconnect_0|m01_couplers -pg 1 -lvl 3 -x 2010 -y 754 -defaultsOSRD
+preplace inst axi_interconnect_0|m02_couplers -pg 1 -lvl 3 -x 2010 -y 928 -defaultsOSRD
+preplace inst axi_interconnect_0|m03_couplers -pg 1 -lvl 3 -x 2010 -y 1102 -defaultsOSRD
+preplace inst axi_interconnect_0|m04_couplers -pg 1 -lvl 3 -x 2010 -y 1276 -defaultsOSRD
+preplace inst axi_interconnect_0|m05_couplers -pg 1 -lvl 3 -x 2010 -y 1450 -defaultsOSRD
+preplace inst axi_interconnect_0|m06_couplers -pg 1 -lvl 3 -x 2010 -y 1624 -defaultsOSRD
+preplace inst axi_interconnect_0|m07_couplers -pg 1 -lvl 3 -x 2010 -y 1798 -defaultsOSRD
+preplace inst axi_interconnect_0|m08_couplers -pg 1 -lvl 3 -x 2010 -y 1972 -defaultsOSRD
+preplace inst axi_interconnect_0|m09_couplers -pg 1 -lvl 3 -x 2010 -y 2146 -defaultsOSRD
+preplace inst axi_interconnect_0|m10_couplers -pg 1 -lvl 3 -x 2010 -y 2320 -defaultsOSRD
+preplace inst axi_interconnect_0|m11_couplers -pg 1 -lvl 3 -x 2010 -y 2494 -defaultsOSRD
+preplace inst axi_interconnect_0|m12_couplers -pg 1 -lvl 3 -x 2010 -y 2688 -defaultsOSRD
+preplace inst microblaze_0_local_memory|dlmb_v10 -pg 1 -lvl 1 -x 490 -y 562 -defaultsOSRD
+preplace inst microblaze_0_local_memory|ilmb_v10 -pg 1 -lvl 1 -x 490 -y 702 -defaultsOSRD
+preplace inst microblaze_0_local_memory|dlmb_bram_if_cntlr -pg 1 -lvl 2 -x 710 -y 582 -defaultsOSRD
+preplace inst microblaze_0_local_memory|ilmb_bram_if_cntlr -pg 1 -lvl 2 -x 710 -y 722 -defaultsOSRD
+preplace inst microblaze_0_local_memory|lmb_bram -pg 1 -lvl 3 -x 920 -y 592 -defaultsOSRD
+preplace inst axi_interconnect_0|m11_couplers|auto_pc -pg 1 -lvl 1 -x 2120 -y 2504 -defaultsOSRD
+preplace netloc Net 1 1 6 610 -40n N -40n N -40n 1050 140n 1510 160n 1810
+preplace netloc Net1 1 1 4 620 -30n N -30n N -30n 1080
+preplace netloc axi_gpio_0_ip2intc_irpt 1 5 2 1370 660n 1830
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 5 2 1340 -40n 1800
+preplace netloc axi_quad_spi_1_ip2intc_irpt 1 5 2 1340 -20n 1770
+preplace netloc axi_quad_spi_2_ip2intc_irpt 1 5 2 1340 320n 1730
+preplace netloc axi_quad_spi_3_ip2intc_irpt 1 5 2 1340 650n 1730
+preplace netloc axi_timer_0_interrupt 1 5 2 1390 680n 1820
+preplace netloc axi_uartlite_0_interrupt 1 6 1 1820 80n
+preplace netloc axi_uartlite_1_interrupt 1 6 1 1750 410n
+preplace netloc axi_uartlite_2_interrupt 1 6 1 1760 250n
+preplace netloc axi_uartlite_3_interrupt 1 6 1 1780 470n
+preplace netloc clk_in1_0_1 1 0 1 -640 600n
+preplace netloc clk_wiz_1_locked 1 0 4 90 560n 560 560n N 560n N
+preplace netloc mdm_1_debug_sys_rst 1 0 4 70 550n 550 550n N 550n N
+preplace netloc microblaze_0_Clk 1 0 7 60 530n 630 -20n N -20n N -20n 1040 160n 1500 150n N
+preplace netloc reset_1 1 0 1 50 630n
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 0 4 80 540n 570 540n N 540n N
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 0 4 80 40n 580 40n N 40n N
+preplace netloc xlconcat_0_dout 1 6 2 1850 60n 2100
+preplace netloc S00_AXI_1 1 1 1 1070 270n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 2 1070 3094 2560
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 1 2 1050 3104 2480
+preplace netloc axi_gpio_0_GPIO 1 3 3 2850J 920 NJ 920 3340J
+preplace netloc axi_gpio_0_GPIO2 1 3 3 2890J 940 NJ 940 NJ
+preplace netloc axi_intc_0_interrupt 1 0 6 160 120 N 120 NJ 120 NJ 120 NJ 120 3340
+preplace netloc axi_interconnect_0_M00_AXI 1 2 2 2480 300 2850
+preplace netloc axi_interconnect_0_M01_AXI 1 2 2 2500 310 2860
+preplace netloc axi_interconnect_0_M02_AXI 1 2 2 2520 320 2870
+preplace netloc axi_interconnect_0_M03_AXI 1 2 2 2530 750 2890
+preplace netloc axi_interconnect_0_M04_AXI 1 2 1 2490 60n
+preplace netloc axi_interconnect_0_M05_AXI 1 2 1 2510 210n
+preplace netloc axi_interconnect_0_M06_AXI 1 2 1 2540 431n
+preplace netloc axi_interconnect_0_M07_AXI 1 2 1 2550 640n
+preplace netloc axi_interconnect_0_M08_AXI 1 2 1 2570 940n
+preplace netloc axi_interconnect_0_M09_AXI 1 2 1 2590 1060n
+preplace netloc axi_interconnect_0_M10_AXI 1 2 3 2560 760 2880 310 3130
+preplace netloc axi_interconnect_0_M11_AXI 1 1 2 1070 2814 2480
+preplace netloc axi_interconnect_0_M12_AXI 1 2 1 2580 820n
+preplace netloc axi_quad_spi_0_SPI_0 1 3 3 2850 110 NJ 110 3350J
+preplace netloc axi_quad_spi_1_SPI_0 1 3 3 2850J 180 NJ 180 3350J
+preplace netloc axi_quad_spi_2_SPI_0 1 3 3 2850J 470 NJ 470 NJ
+preplace netloc axi_quad_spi_3_SPI_0 1 3 3 NJ 640 NJ 640 NJ
+preplace netloc axi_quad_spi_4_SPI_0 1 3 3 NJ 820 NJ 820 NJ
+preplace netloc axi_uartlite_0_UART 1 4 2 3110J 140 NJ
+preplace netloc axi_uartlite_1_UART 1 4 2 3110J 440 NJ
+preplace netloc axi_uartlite_2_UART 1 4 2 3120J 200 NJ
+preplace netloc axi_uartlite_3_UART 1 4 2 3130J 610 NJ
+preplace netloc microblaze_0_debug 1 0 2 170 170 1060
+preplace netloc microblaze_0_dlmb_1 1 0 2 150 160 1050
+preplace netloc microblaze_0_ilmb_1 1 0 2 160 440 1050
+preplace netloc axi_interconnect_0|axi_interconnect_0_to_s00_couplers 1 0 1 NJ 1542
+preplace netloc axi_interconnect_0|m00_couplers_to_axi_interconnect_0 1 3 1 NJ 532
+preplace netloc axi_interconnect_0|m01_couplers_to_axi_interconnect_0 1 3 1 2370J 714n
+preplace netloc axi_interconnect_0|m02_couplers_to_axi_interconnect_0 1 3 1 2370J 888n
+preplace netloc axi_interconnect_0|m03_couplers_to_axi_interconnect_0 1 3 1 2370J 1062n
+preplace netloc axi_interconnect_0|m04_couplers_to_axi_interconnect_0 1 3 1 2370J 1236n
+preplace netloc axi_interconnect_0|m05_couplers_to_axi_interconnect_0 1 3 1 2370J 1410n
+preplace netloc axi_interconnect_0|m06_couplers_to_axi_interconnect_0 1 3 1 2370J 1584n
+preplace netloc axi_interconnect_0|m07_couplers_to_axi_interconnect_0 1 3 1 2370J 1758n
+preplace netloc axi_interconnect_0|m08_couplers_to_axi_interconnect_0 1 3 1 2370J 1932n
+preplace netloc axi_interconnect_0|m09_couplers_to_axi_interconnect_0 1 3 1 2370J 2106n
+preplace netloc axi_interconnect_0|m10_couplers_to_axi_interconnect_0 1 3 1 2370J 2280n
+preplace netloc axi_interconnect_0|m11_couplers_to_axi_interconnect_0 1 3 1 2370J 2452n
+preplace netloc axi_interconnect_0|m12_couplers_to_axi_interconnect_0 1 3 1 2370J 2622n
+preplace netloc axi_interconnect_0|s00_couplers_to_xbar 1 1 1 NJ 1542
+preplace netloc axi_interconnect_0|xbar_to_m00_couplers 1 2 1 1770 532n
+preplace netloc axi_interconnect_0|xbar_to_m01_couplers 1 2 1 1780 714n
+preplace netloc axi_interconnect_0|xbar_to_m02_couplers 1 2 1 1790 888n
+preplace netloc axi_interconnect_0|xbar_to_m03_couplers 1 2 1 1810 1062n
+preplace netloc axi_interconnect_0|xbar_to_m04_couplers 1 2 1 1820 1236n
+preplace netloc axi_interconnect_0|xbar_to_m05_couplers 1 2 1 1830 1410n
+preplace netloc axi_interconnect_0|xbar_to_m06_couplers 1 2 1 1830 1562n
+preplace netloc axi_interconnect_0|xbar_to_m07_couplers 1 2 1 1820 1582n
+preplace netloc axi_interconnect_0|xbar_to_m08_couplers 1 2 1 1810 1602n
+preplace netloc axi_interconnect_0|xbar_to_m09_couplers 1 2 1 1800 1622n
+preplace netloc axi_interconnect_0|xbar_to_m10_couplers 1 2 1 1790 1642n
+preplace netloc axi_interconnect_0|xbar_to_m11_couplers 1 2 1 1780 1662n
+preplace netloc axi_interconnect_0|xbar_to_m12_couplers 1 2 1 1770 1682n
+preplace netloc axi_interconnect_0|s00_couplers|s00_couplers_to_s00_couplers 1 0 1 N 1542
+preplace netloc axi_interconnect_0|m00_couplers|m00_couplers_to_m00_couplers 1 0 1 N 532
+preplace netloc axi_interconnect_0|m08_couplers|m08_couplers_to_m08_couplers 1 0 1 N 1932
+preplace netloc microblaze_0_local_memory|microblaze_0_dlmb 1 0 1 NJ 542
+preplace netloc microblaze_0_local_memory|microblaze_0_dlmb_bus 1 1 1 NJ 562
+preplace netloc microblaze_0_local_memory|microblaze_0_dlmb_cntlr 1 2 1 N 582
+preplace netloc microblaze_0_local_memory|microblaze_0_ilmb 1 0 1 NJ 682
+preplace netloc microblaze_0_local_memory|microblaze_0_ilmb_bus 1 1 1 NJ 702
+preplace netloc microblaze_0_local_memory|microblaze_0_ilmb_cntlr 1 2 1 820 602n
+preplace netloc axi_interconnect_0|m05_couplers|m05_couplers_to_m05_couplers 1 0 1 N 1410
+preplace netloc axi_interconnect_0|m06_couplers|m06_couplers_to_m06_couplers 1 0 1 N 1584
+preplace netloc axi_interconnect_0|m04_couplers|m04_couplers_to_m04_couplers 1 0 1 N 1236
+preplace netloc axi_interconnect_0|m03_couplers|m03_couplers_to_m03_couplers 1 0 1 N 1062
+preplace netloc axi_interconnect_0|m07_couplers|m07_couplers_to_m07_couplers 1 0 1 N 1758
+preplace netloc axi_interconnect_0|m01_couplers|m01_couplers_to_m01_couplers 1 0 1 N 714
+preplace netloc axi_interconnect_0|m02_couplers|m02_couplers_to_m02_couplers 1 0 1 N 888
+preplace netloc axi_interconnect_0|m12_couplers|m12_couplers_to_m12_couplers 1 0 1 N 2648
+preplace netloc axi_interconnect_0|m10_couplers|m10_couplers_to_m10_couplers 1 0 1 N 2280
+preplace netloc axi_interconnect_0|m09_couplers|m09_couplers_to_m09_couplers 1 0 1 N 2106
+preplace netloc axi_interconnect_0|m11_couplers|S_ACLK_1 1 0 1 1960 2504n
+preplace netloc axi_interconnect_0|m11_couplers|S_ARESETN_1 1 0 1 1970 2524n
+preplace netloc axi_interconnect_0|m11_couplers|auto_pc_to_m11_couplers 1 1 1 N 2504
+preplace netloc axi_interconnect_0|m11_couplers|m11_couplers_to_auto_pc 1 0 1 N 2484
+levelinfo -pg 1 -220 400 1250 2720 3000 3240 3370
+levelinfo -hier axi_interconnect_0 * 1360 1640 2010 *
+levelinfo -hier microblaze_0_local_memory * 490 710 920 *
+levelinfo -hier axi_interconnect_0|s00_couplers * *
+levelinfo -hier axi_interconnect_0|m00_couplers * *
+levelinfo -hier axi_interconnect_0|m01_couplers * *
+levelinfo -hier axi_interconnect_0|m02_couplers * *
+levelinfo -hier axi_interconnect_0|m03_couplers * *
+levelinfo -hier axi_interconnect_0|m04_couplers * *
+levelinfo -hier axi_interconnect_0|m05_couplers * *
+levelinfo -hier axi_interconnect_0|m06_couplers * *
+levelinfo -hier axi_interconnect_0|m07_couplers * *
+levelinfo -hier axi_interconnect_0|m08_couplers * *
+levelinfo -hier axi_interconnect_0|m09_couplers * *
+levelinfo -hier axi_interconnect_0|m10_couplers * *
+levelinfo -hier axi_interconnect_0|m11_couplers * 2120 *
+levelinfo -hier axi_interconnect_0|m12_couplers * *
+pagesize -pg 1 -db -bbox -sgen -220 0 3540 3120
+pagesize -hier axi_interconnect_0 -db -bbox -sgen 1150 472 2400 2782
+pagesize -hier microblaze_0_local_memory -db -bbox -sgen 350 482 1020 802
+pagesize -hier axi_interconnect_0|s00_couplers -db -bbox -sgen 1280 1512 1440 1652
+pagesize -hier axi_interconnect_0|m00_couplers -db -bbox -sgen 1930 502 2090 642
+pagesize -hier axi_interconnect_0|m01_couplers -db -bbox -sgen 1930 684 2090 824
+pagesize -hier axi_interconnect_0|m02_couplers -db -bbox -sgen 1930 858 2090 998
+pagesize -hier axi_interconnect_0|m03_couplers -db -bbox -sgen 1930 1032 2090 1172
+pagesize -hier axi_interconnect_0|m04_couplers -db -bbox -sgen 1930 1206 2090 1346
+pagesize -hier axi_interconnect_0|m05_couplers -db -bbox -sgen 1930 1380 2090 1520
+pagesize -hier axi_interconnect_0|m06_couplers -db -bbox -sgen 1930 1554 2090 1694
+pagesize -hier axi_interconnect_0|m07_couplers -db -bbox -sgen 1930 1728 2090 1868
+pagesize -hier axi_interconnect_0|m08_couplers -db -bbox -sgen 1930 1902 2090 2042
+pagesize -hier axi_interconnect_0|m09_couplers -db -bbox -sgen 1930 2076 2090 2216
+pagesize -hier axi_interconnect_0|m10_couplers -db -bbox -sgen 1930 2250 2090 2390
+pagesize -hier axi_interconnect_0|m11_couplers -db -bbox -sgen 1930 2424 2300 2584
+pagesize -hier axi_interconnect_0|m12_couplers -db -bbox -sgen 1930 2618 2090 2758
+",
+   "Interfaces View_ScaleFactor":"0.360013",
+   "Interfaces View_TopLeft":"-1061,3",
+   "Interrupt and AXI-4 Lite_Layers":"/axi_quad_spi_2_ip2intc_irpt:true|/axi_quad_spi_3_ip2intc_irpt:true|/axi_uartlite_2_interrupt:true|/axi_uartlite_3_interrupt:true|/axi_quad_spi_0_ip2intc_irpt:true|/axi_timer_0_interrupt:true|/axi_quad_spi_1_ip2intc_irpt:true|/axi_uartlite_1_interrupt:true|/axi_uartlite_0_interrupt:true|/axi_gpio_0_ip2intc_irpt:true|",
+   "Interrupt and AXI-4 Lite_ScaleFactor":"1.12551",
+   "Interrupt and AXI-4 Lite_TopLeft":"-180,2",
+   "No Loops_Layers":"/axi_quad_spi_2_ip2intc_irpt:true|/axi_quad_spi_3_ip2intc_irpt:true|/axi_uartlite_2_interrupt:true|/rst_clk_wiz_1_100M_mb_reset:true|/axi_timer_0_interrupt:true|/Net:true|/mdm_1_debug_sys_rst:true|/axi_uartlite_1_interrupt:true|/axi_uartlite_0_interrupt:true|/axi_gpio_0_ip2intc_irpt:true|/reset_1:true|/axi_uartlite_3_interrupt:true|/axi_quad_spi_0_ip2intc_irpt:true|/Net1:true|/axi_quad_spi_1_ip2intc_irpt:true|/microblaze_0_Clk:true|/clk_in1_0_1:true|/rst_clk_wiz_1_100M_bus_struct_reset:true|",
+   "No Loops_ScaleFactor":"0.657521",
+   "No Loops_TopLeft":"-402,3",
+   "Reduced Jogs_Layers":"/axi_quad_spi_3_ip2intc_irpt:true|/axi_quad_spi_1_ip2intc_irpt:true|/axi_uartlite_3_interrupt:true|/axi_gpio_0_ip2intc_irpt:true|/axi_quad_spi_0_ip2intc_irpt:true|/reset_1:true|/axi_quad_spi_2_ip2intc_irpt:true|/rst_clk_wiz_1_100M_mb_reset:true|/rst_clk_wiz_1_100M_bus_struct_reset:true|/clk_in1_0_1:true|/Net1:true|/axi_uartlite_0_interrupt:true|/mdm_1_debug_sys_rst:true|/Net:true|/axi_uartlite_1_interrupt:true|/microblaze_0_Clk:true|/axi_timer_0_interrupt:true|/axi_uartlite_2_interrupt:true|",
+   "Reduced Jogs_ScaleFactor":"0.690169",
+   "Reduced Jogs_TopLeft":"-281,3",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port UART_0 -pg 1 -lvl 6 -x 2270 -y 50 -defaultsOSRD
+preplace port UART_1 -pg 1 -lvl 6 -x 2270 -y 230 -defaultsOSRD
+preplace port UART_2 -pg 1 -lvl 6 -x 2270 -y 390 -defaultsOSRD
+preplace port UART_3 -pg 1 -lvl 6 -x 2270 -y 560 -defaultsOSRD
+preplace port dip_switches_4bits -pg 1 -lvl 6 -x 2270 -y 780 -defaultsOSRD
+preplace port SPI_0_0 -pg 1 -lvl 6 -x 2270 -y 620 -defaultsOSRD
+preplace port SPI_0_1 -pg 1 -lvl 6 -x 2270 -y 450 -defaultsOSRD
+preplace port SPI_0_2 -pg 1 -lvl 6 -x 2270 -y 260 -defaultsOSRD
+preplace port SPI_0_3 -pg 1 -lvl 6 -x 2270 -y 80 -defaultsOSRD
+preplace port SPI_0_4 -pg 1 -lvl 6 -x 2270 -y 740 -defaultsOSRD
+preplace port GPIO2_0 -pg 1 -lvl 6 -x 2270 -y 1087 -defaultsOSRD
+preplace port port-id_clk_in1_0 -pg 1 -lvl 0 -x -660 -y 600 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -660 -y 740 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 800 -y 370 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 4 -x 1670 -y 70 -defaultsOSRD
+preplace inst axi_uartlite_1 -pg 1 -lvl 4 -x 1670 -y 490 -defaultsOSRD -resize 180 116
+preplace inst axi_uartlite_2 -pg 1 -lvl 4 -x 1670 -y 290 -defaultsOSRD -resize 180 183
+preplace inst axi_uartlite_3 -pg 1 -lvl 4 -x 1670 -y 670 -defaultsOSRD -resize 180 116
+preplace inst axi_quad_spi_0 -pg 1 -lvl 3 -x 1260 -y 90 -defaultsOSRD
+preplace inst axi_quad_spi_1 -pg 1 -lvl 3 -x 1260 -y 461 -defaultsOSRD -resize 220 153
+preplace inst axi_quad_spi_2 -pg 1 -lvl 3 -x 1260 -y 699 -defaultsOSRD -resize 220 183
+preplace inst axi_quad_spi_3 -pg 1 -lvl 3 -x 1260 -y 910 -defaultsOSRD -resize 220 183
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 1260 -y 1287 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 3 -x 1260 -y 1477 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 5 -x 2100 -y 500 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 5 -x 2100 -y 160 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -x 320 -y 130 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 1 -x 320 -y 440 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 320 -y 300 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 320 -y 640 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 1 -x 320 -y 800 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 2 -x 800 -y 790 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 800 -y 920 -defaultsOSRD
+preplace inst axi_quad_spi_4 -pg 1 -lvl 3 -x 1260 -y 1100 -defaultsOSRD
+preplace netloc Net 1 1 4 610 -50 1110 -40 1480 170 N
+preplace netloc Net1 1 1 2 620 -30 1090
+preplace netloc axi_gpio_0_ip2intc_irpt 1 3 2 1510 580 N
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 3 2 1510 180 1860
+preplace netloc axi_quad_spi_1_ip2intc_irpt 1 3 2 1400 410 1830
+preplace netloc axi_quad_spi_2_ip2intc_irpt 1 3 2 1450 750 1850
+preplace netloc axi_quad_spi_3_ip2intc_irpt 1 3 2 1530 770 1860
+preplace netloc axi_timer_0_interrupt 1 3 2 1560 800 1880
+preplace netloc axi_uartlite_0_interrupt 1 4 1 1870 100n
+preplace netloc axi_uartlite_1_interrupt 1 4 1 1820 420n
+preplace netloc axi_uartlite_2_interrupt 1 4 1 1790 340n
+preplace netloc axi_uartlite_3_interrupt 1 4 1 1840 460n
+preplace netloc clk_in1_0_1 1 0 1 -640 600n
+preplace netloc clk_wiz_1_locked 1 0 2 90 560 560
+preplace netloc mdm_1_debug_sys_rst 1 0 2 70 550 550
+preplace netloc microblaze_0_Clk 1 0 5 60 530 630 -20 1070 -10 1500 160 1860
+preplace netloc reset_1 1 0 1 50 630n
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 0 2 80 540 570
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 0 2 80 40 580
+preplace netloc xlconcat_0_dout 1 4 2 1980 60 2220
+preplace netloc axi_quad_spi_4_ip2intc_irpt 1 3 2 1550 790 1890J
+preplace netloc S00_AXI_1 1 1 1 560 70n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 1 2 650 0 950
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 1 2 640 -10 960
+preplace netloc axi_gpio_0_GPIO 1 3 3 1540J 780 NJ 780 NJ
+preplace netloc axi_gpio_0_GPIO2 1 3 3 NJ 1287 1790J 1087 NJ
+preplace netloc axi_intc_0_interrupt 1 0 6 90 -40 NJ -40 1100J -30 NJ -30 NJ -30 2230
+preplace netloc axi_interconnect_0_M00_AXI 1 2 2 1100 0 1510
+preplace netloc axi_interconnect_0_M01_AXI 1 2 2 N 270 1490
+preplace netloc axi_interconnect_0_M02_AXI 1 2 2 1130 250 N
+preplace netloc axi_interconnect_0_M03_AXI 1 2 2 N 310 1410
+preplace netloc axi_interconnect_0_M04_AXI 1 2 1 1120 60n
+preplace netloc axi_interconnect_0_M05_AXI 1 2 1 1130 350n
+preplace netloc axi_interconnect_0_M06_AXI 1 2 1 1120 370n
+preplace netloc axi_interconnect_0_M07_AXI 1 2 1 1100 390n
+preplace netloc axi_interconnect_0_M08_AXI 1 2 1 990 410n
+preplace netloc axi_interconnect_0_M09_AXI 1 2 1 970 430n
+preplace netloc axi_interconnect_0_M10_AXI 1 2 3 1080 -20 N -20 1880
+preplace netloc axi_interconnect_0_M11_AXI 1 1 2 660 10 940
+preplace netloc axi_interconnect_0_M12_AXI 1 2 1 980 490n
+preplace netloc axi_quad_spi_0_SPI_0 1 3 3 1490 -40 NJ -40 2250J
+preplace netloc axi_quad_spi_1_SPI_0 1 3 3 1390J 400 1780J 260 NJ
+preplace netloc axi_quad_spi_2_SPI_0 1 3 3 1390J 570 1810J 340 2240J
+preplace netloc axi_quad_spi_3_SPI_0 1 3 3 1420J 590 1810J 660 2250J
+preplace netloc axi_quad_spi_4_SPI_0 1 3 3 1520J 760 1870J 740 NJ
+preplace netloc axi_uartlite_0_UART 1 4 2 NJ 40 2240J
+preplace netloc axi_uartlite_1_UART 1 4 2 1800J 330 2250J
+preplace netloc axi_uartlite_2_UART 1 4 2 1780J 70 2240J
+preplace netloc axi_uartlite_3_UART 1 4 2 1780J 670 2230J
+preplace netloc microblaze_0_debug 1 0 2 40 520 560
+preplace netloc microblaze_0_dlmb_1 1 0 2 70 220 570
+preplace netloc microblaze_0_ilmb_1 1 0 2 90 230 550
+levelinfo -pg 1 -660 320 800 1260 1670 2100 2270
+pagesize -pg 1 -db -bbox -sgen -810 -350 2480 2040
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"11",
+   "da_clkrst_cnt":"1",
+   "da_mb_cnt":"2"
+}
