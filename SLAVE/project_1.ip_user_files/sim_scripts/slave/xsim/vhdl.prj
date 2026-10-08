@@ -1,0 +1,24 @@
+vhdl xil_defaultlib  \
+"../../../bd/slave/ip/slave_axi_uartlite_0_0/sim/slave_axi_uartlite_0_0.vhd" \
+"../../../bd/slave/ip/slave_axi_uartlite_0_1/sim/slave_axi_uartlite_0_1.vhd" \
+"../../../bd/slave/ip/slave_axi_uartlite_1_0/sim/slave_axi_uartlite_1_0.vhd" \
+"../../../bd/slave/ip/slave_axi_uartlite_2_0/sim/slave_axi_uartlite_2_0.vhd" \
+"../../../bd/slave/ip/slave_axi_quad_spi_0_0/sim/slave_axi_quad_spi_0_0.vhd" \
+"../../../bd/slave/ip/slave_axi_quad_spi_0_1/sim/slave_axi_quad_spi_0_1.vhd" \
+"../../../bd/slave/ip/slave_axi_quad_spi_1_0/sim/slave_axi_quad_spi_1_0.vhd" \
+"../../../bd/slave/ip/slave_axi_quad_spi_2_0/sim/slave_axi_quad_spi_2_0.vhd" \
+"../../../bd/slave/ip/slave_axi_gpio_0_0/sim/slave_axi_gpio_0_0.vhd" \
+"../../../bd/slave/ip/slave_axi_timer_0_0/sim/slave_axi_timer_0_0.vhd" \
+"../../../bd/slave/ip/slave_axi_intc_0_0/sim/slave_axi_intc_0_0.vhd" \
+"../../../bd/slave/ip/slave_microblaze_0_0/sim/slave_microblaze_0_0.vhd" \
+"../../../bd/slave/ip/slave_dlmb_v10_0/sim/slave_dlmb_v10_0.vhd" \
+"../../../bd/slave/ip/slave_ilmb_v10_0/sim/slave_ilmb_v10_0.vhd" \
+"../../../bd/slave/ip/slave_dlmb_bram_if_cntlr_0/sim/slave_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/slave/ip/slave_ilmb_bram_if_cntlr_0/sim/slave_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/slave/ip/slave_mdm_1_0/sim/slave_mdm_1_0.vhd" \
+"../../../bd/slave/ip/slave_rst_clk_wiz_1_100M_0/sim/slave_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/slave/ip/slave_axi_bram_ctrl_0_0/sim/slave_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/slave/ip/slave_axi_quad_spi_4_0/sim/slave_axi_quad_spi_4_0.vhd" \
+
+# Do not sort compile order
+nosort
